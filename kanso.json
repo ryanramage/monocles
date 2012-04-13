@@ -1,11 +1,24 @@
 {
     "name": "monocles",
     "version": "0.0.1",
-    "description": "A tag management app",
+    "description": "Share what you want, with whom you want.",
+    "long_description": "Monocles is a twitter-like sharing app. ",
     "url": "https://github.com/maxogden/monocles",
     "categories": ["social"],
     "app": "app",
     "dependencies": {
         "node-couchapp": null
-    }
+    },
+    "icons": {
+        "16": "images/icons/wiki_icon_16.png",
+        "48": "images/icons/wiki_icon_48.png",
+        "96": "images/icons/wiki_icon_96.png",
+        "128": "images/icons/wiki_icon_128.png"
+    },
+    "promo_images": {
+        "small": "images/promo/promo_small.png"
+    },
+    "screenshots": [
+        "images/promo/screenshot1.png"
+    ]
 }
