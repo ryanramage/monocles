@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style/css3buttons.css" type="text/css">
     <script src="https://browserid.org/include.js" type="text/javascript"></script>
     <script type="text/javascript" src="script/lib/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="/dashboard/_design/dashboard/_rewrite/static/js/topbar.js"></script>
     <script type="text/javascript" src="script/lib/jquery.fileupload.js"></script>
     <script type="text/javascript" src="script/lib/jquery.fileupload-ui.js"></script>
     <script type="text/javascript" src="script/lib/jquery.infieldlabel.js"></script>
@@ -32,18 +33,7 @@
   <body>
     <header>
       <div class="container" id="headerContainer">
-        <div href="#" id="diaspora_text">
-          <a href="http://github.com/maxogden/monocles">
-            MONOCLES
-          </a>
-          <span class="sub_text">
-            BETA
-          </span>
-        </div>
-        <div id="session_action">
-          <ul id="account">
-          </ul>
-        </div>
+
         <div id="aspect_nav">
           <ul>
             <li class="selected">
@@ -92,7 +82,7 @@
     </script>
 
     <script type="text/mustache" id="loggedOutTemplate">
-      <div class="container"><p class="loginMessage">Welcome to <a href="https://github.com/maxogden/monocles">monocles</a>, an open source social network based on <a href="https://joindiaspora.com/">Diaspora</a> that lets people on <a href="http://ostatus.org/faq">different networks</a> follow each other. <a class="login">Log in with BrowserID</a> to post.</p></div>
+      <div class="container"><p class="loginMessage">Welcome to <a href="https://github.com/maxogden/monocles">monocles</a>, an open source social network based on <a href="https://joindiaspora.com/">Diaspora</a> that lets people on <a href="http://ostatus.org/faq">different networks</a> follow each other. Log in to post.</p></div>
     </script>
 
     <script type="text/mustache" id="newProfileFormTemplate">

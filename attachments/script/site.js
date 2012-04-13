@@ -65,10 +65,7 @@ app.sammy = $.sammy(function () {
 });
 
 $(function() {
-  $('.login').live('click', function(e) {
-    monocles.showLogin();
-    return false;
-  })
+
   app.sammy.run(); 
   monocles.bindInfiniteScroll(); 
 })

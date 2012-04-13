@@ -1,0 +1,11 @@
+{
+    "name": "monocles",
+    "version": "0.0.1",
+    "description": "A tag management app",
+    "url": "https://github.com/maxogden/monocles",
+    "categories": ["social"],
+    "app": "app",
+    "dependencies": {
+        "node-couchapp": null
+    }
+}
