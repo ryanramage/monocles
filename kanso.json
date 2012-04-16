@@ -1,8 +1,8 @@
 {
     "name": "monocles",
     "version": "0.0.1",
-    "description": "Share what you want, with whom you want.",
-    "long_description": "Monocles is a twitter-like sharing app. ",
+    "description": "A twitter-like sharing app.",
+    "long_description": "Monocles lets you create an activity feed. Post your thoughts and ideas, share files, and more.  ",
     "url": "https://github.com/maxogden/monocles",
     "categories": ["social"],
     "app": "app",
